@@ -175,7 +175,7 @@ async function submitForm() {
         cargo: categoriavalue.toUpperCase()
     };
     try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxUY9Bhq6SdNhYmJxjxf9KzE48RD-z3q2czN_djHDVY8SgqX2mVnTjd30222RmcgZQm/exec', { // Replace with your Google Apps Script URL
+        const response = await fetch('https://script.google.com/macros/s/AKfycbzX8SRPMHcJC3Ujohm_LWX36hTkfDvVYdToiXBPYtOb9qXm0q1vKmGda8LpP5S4QhPh4A/exec', { // Replace with your Google Apps Script URL
             method: 'POST',
             headers: {
                 'Content-Type': 'text/plain;charset=utf-8'
